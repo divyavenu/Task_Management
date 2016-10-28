@@ -13,7 +13,7 @@ var users = require('./routes/users');
 var app = express();
 
 //Connect to database
-mongoose.connect('mongodb://localhost/news');
+mongoose.connect('mongodb://admin:pass@ds137207.mlab.com:37207/heroku_f3d8g3wc');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
